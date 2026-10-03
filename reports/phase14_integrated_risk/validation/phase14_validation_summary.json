@@ -1,0 +1,21 @@
+{
+  "project_root_exists": true,
+  "phase14_output_exists": true,
+  "all_scenario_output_exists": true,
+  "nonempty_baseline": true,
+  "nonempty_all_scenarios": true,
+  "integrated_score_finite": "True",
+  "integrated_score_range": "True",
+  "climate_score_range": "True",
+  "water_score_range": "True",
+  "date_valid": "True",
+  "date_sorted": true,
+  "no_duplicate_dates": "True",
+  "scenario_count": true,
+  "weights_sum_to_one": true,
+  "causal_claim_disabled": true,
+  "field_validation_not_claimed": true,
+  "global_validation_not_claimed": true,
+  "formula_reproduces_score": true,
+  "all_required": true
+}

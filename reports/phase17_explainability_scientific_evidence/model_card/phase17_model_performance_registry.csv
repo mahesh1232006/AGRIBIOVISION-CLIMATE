@@ -1,0 +1,27 @@
+metric,value,interpretation
+model_name,MobileNetV2 ImageNet transfer-learning baseline,Benchmark/test result from controlled PlantVillage-based evaluation
+task,Plant/crop health image classification,Benchmark/test result from controlled PlantVillage-based evaluation
+dataset,PlantVillage,Benchmark/test result from controlled PlantVillage-based evaluation
+dataset_classes,38,Benchmark/test result from controlled PlantVillage-based evaluation
+controlled_subset_images,11227,Benchmark/test result from controlled PlantVillage-based evaluation
+train_images,7858,Benchmark/test result from controlled PlantVillage-based evaluation
+validation_images,1684,Benchmark/test result from controlled PlantVillage-based evaluation
+test_images,1685,Benchmark/test result from controlled PlantVillage-based evaluation
+image_size,160x160,Benchmark/test result from controlled PlantVillage-based evaluation
+backbone,MobileNetV2,Benchmark/test result from controlled PlantVillage-based evaluation
+backbone_weights,ImageNet,Benchmark/test result from controlled PlantVillage-based evaluation
+backbone_trainable,False,Benchmark/test result from controlled PlantVillage-based evaluation
+trainable_parameters,48678,Benchmark/test result from controlled PlantVillage-based evaluation
+epochs,3,Benchmark/test result from controlled PlantVillage-based evaluation
+test_accuracy,0.883086,Benchmark/test result from controlled PlantVillage-based evaluation
+balanced_accuracy,0.882,Benchmark/test result from controlled PlantVillage-based evaluation
+macro_precision,0.902,Benchmark/test result from controlled PlantVillage-based evaluation
+macro_recall,0.882,Benchmark/test result from controlled PlantVillage-based evaluation
+macro_f1,0.8823,Benchmark/test result from controlled PlantVillage-based evaluation
+weighted_f1,0.8829,Benchmark/test result from controlled PlantVillage-based evaluation
+misclassified_test_images,197,Benchmark/test result from controlled PlantVillage-based evaluation
+mean_confidence,0.8463,Benchmark/test result from controlled PlantVillage-based evaluation
+median_confidence,0.93735,Benchmark/test result from controlled PlantVillage-based evaluation
+field_validation_performed,False,Validation-status flag
+global_validation_established,False,Validation-status flag
+benchmark_interpretation,True,Benchmark/test result from controlled PlantVillage-based evaluation

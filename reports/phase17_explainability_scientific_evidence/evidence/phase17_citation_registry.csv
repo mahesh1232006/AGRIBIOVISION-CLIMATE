@@ -1,0 +1,9 @@
+citation_id,reference,url,used_for
+C001,NASA POWER,https://power.larc.nasa.gov/,Climate and meteorological data foundation
+C002,"Hughes, D.P. & Salathé, M. (2015). An open access repository of images on plant health to enable the development of mobile disease diagnostics.",https://arxiv.org/abs/1511.08060,PlantVillage dataset background
+C003,"Mohanty, S.P., Hughes, D.P. & Salathé, M. (2016). Using Deep Learning for Image-Based Plant Disease Detection.",https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2016.01419/full,PlantVillage image classification research context
+C004,"Sandler, M. et al. (2018). MobileNetV2: Inverted Residuals and Linear Bottlenecks.",https://arxiv.org/abs/1801.04381,MobileNetV2 architecture
+C005,AgriBioVision Climate — Phase 13,internal://phase13,Project-specific crop-health benchmark
+C006,AgriBioVision Climate — Phase 14,internal://phase14,Integrated-risk methodology
+C007,AgriBioVision Climate — Phase 15,internal://phase15,Recommendation methodology
+C008,AgriBioVision Climate — Phase 16,internal://phase16,Normalized impact indicators

@@ -1,0 +1,15 @@
+{
+  "phase": 15,
+  "name": "AI Recommendation Engine",
+  "engine_type": "transparent rule-based agricultural recommendation engine",
+  "input": "Phase 14 integrated climate-water-crop-health screening framework",
+  "recommendation_count": 7392,
+  "recommendation_types": null,
+  "scientific_position": "Recommendations are screening-level decision-support suggestions. They are not treated as causal disease diagnoses, statistical treatment prescriptions, or substitutes for local agronomic validation.",
+  "crop_health_interpretation": "Crop-health scenario scores are methodological scenario assumptions and are not disease probabilities.",
+  "field_validation": "Not performed",
+  "global_validation": "Not established",
+  "causal_climate_disease_inference": false,
+  "chemical_prescription_generation": false,
+  "validation_status": "PASS"
+}

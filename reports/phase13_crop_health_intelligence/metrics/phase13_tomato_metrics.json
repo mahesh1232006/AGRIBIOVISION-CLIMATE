@@ -1,0 +1,8 @@
+{
+  "available": true,
+  "test_images": 450,
+  "accuracy": 0.7266666666666667,
+  "macro_f1": 0.43449390562625434,
+  "macro_precision": 0.4774169538067959,
+  "macro_recall": 0.4274509803921569
+}

@@ -1,0 +1,34 @@
+{
+  "project": "AgriBioVision Climate",
+  "phase": 14,
+  "phase_title": "Integrated Climate + Water + Crop Health Risk",
+  "generated_at_utc": "2026-10-03T10:55:27.088067+00:00",
+  "input_dimensions": {
+    "baseline_rows": 2172,
+    "all_scenario_rows": 6516,
+    "scenario_count": 3
+  },
+  "outputs": {
+    "baseline_csv": "/content/AgriBioVision_Climate/reports/phase14_integrated_risk/processed/phase14_integrated_risk_baseline.csv",
+    "all_scenarios_csv": "/content/AgriBioVision_Climate/reports/phase14_integrated_risk/processed/phase14_integrated_risk_all_scenarios.csv",
+    "scenario_summary": "/content/AgriBioVision_Climate/reports/phase14_integrated_risk/summaries/phase14_scenario_summary.csv",
+    "annual_summary": "/content/AgriBioVision_Climate/reports/phase14_integrated_risk/summaries/phase14_annual_summary.csv",
+    "monthly_summary": "/content/AgriBioVision_Climate/reports/phase14_integrated_risk/summaries/phase14_monthly_summary.csv",
+    "validation": "/content/AgriBioVision_Climate/reports/phase14_integrated_risk/validation/phase14_validation_summary.json",
+    "methodology": "/content/AgriBioVision_Climate/reports/phase14_integrated_risk/methodology/phase14_methodology.json",
+    "assumptions": "/content/AgriBioVision_Climate/reports/phase14_integrated_risk/assumptions/phase14_assumption_registry.json"
+  },
+  "scientific_status": {
+    "screening_level_framework": true,
+    "field_validation": false,
+    "global_validation": false,
+    "causal_climate_disease_claim": false,
+    "climate_change_attribution": false
+  },
+  "phase13_status": {
+    "model_retrained": false,
+    "benchmark_source": "PlantVillage",
+    "interpretation": "Phase 13 crop-health benchmark is used as methodological scenario context; it is not temporally linked to climate data."
+  },
+  "quality_gate": true
+}

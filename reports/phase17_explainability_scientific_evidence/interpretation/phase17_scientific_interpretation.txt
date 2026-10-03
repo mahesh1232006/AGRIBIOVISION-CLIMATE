@@ -1,0 +1,169 @@
+====================================================================================================
+AGRIBIOVISION CLIMATE — PHASE 17 SCIENTIFIC INTERPRETATION
+====================================================================================================
+
+PURPOSE
+-------
+Phase 17 documents how project outputs can be interpreted, what evidence supports them,
+what assumptions are used, and what claims must not be made.
+
+----------------------------------------------------------------------------------------------------
+1. CLIMATE EVIDENCE
+----------------------------------------------------------------------------------------------------
+
+Climate indicators are derived from meteorological/solar observations obtained through
+NASA POWER and transformed through the documented AgriBioVision Climate methodology.
+
+These observations support climate-exposure screening.
+
+They do not constitute direct measurements from every farm.
+
+----------------------------------------------------------------------------------------------------
+2. CROP HEALTH MODEL
+----------------------------------------------------------------------------------------------------
+
+The crop-health component uses a MobileNetV2 transfer-learning model evaluated on a
+controlled PlantVillage-based benchmark.
+
+Recorded Phase 13 benchmark results:
+
+Accuracy              : 0.883086
+Balanced Accuracy     : 0.882000
+Macro Precision       : 0.902000
+Macro Recall          : 0.882000
+Macro F1              : 0.882300
+Weighted F1           : 0.882900
+
+These values describe the project benchmark.
+
+They do NOT establish field accuracy.
+
+They do NOT establish global accuracy.
+
+----------------------------------------------------------------------------------------------------
+3. INTEGRATED RISK
+----------------------------------------------------------------------------------------------------
+
+Integrated Risk combines:
+
+Climate Risk
+Water Stress
+Crop Health Concern
+
+according to the documented Phase 14 weighted methodology.
+
+The score is intended for screening and prioritization.
+
+It is not a probability of crop failure.
+
+It is not a probability of disease.
+
+It is not a yield-loss prediction.
+
+----------------------------------------------------------------------------------------------------
+4. CROP HEALTH SCENARIOS
+----------------------------------------------------------------------------------------------------
+
+Healthy baseline, moderate concern and high concern are scenario conditions.
+
+They are not disease probabilities.
+
+The scenario values are methodological inputs used to examine how integrated risk changes
+under different crop-health conditions.
+
+----------------------------------------------------------------------------------------------------
+5. RECOMMENDATIONS
+----------------------------------------------------------------------------------------------------
+
+Phase 15 recommendations are generated through transparent rules.
+
+The recommendation engine is therefore explainable at the rule level.
+
+A recommendation should be interpreted as a decision-support suggestion requiring
+contextual/local agronomic verification.
+
+----------------------------------------------------------------------------------------------------
+6. IMPACT INDICATORS
+----------------------------------------------------------------------------------------------------
+
+Phase 16 provides normalized screening indicators including:
+
+Resource Pressure
+Climate Exposure
+Compounding Index
+Monitoring Pressure
+
+These indicators are NOT direct measurements of:
+
+- litres of water saved
+- money saved
+- yield increase
+- disease reduction
+- CO2 reduction
+
+Actual impact requires measured intervention and outcome data.
+
+----------------------------------------------------------------------------------------------------
+7. CLIMATE-TO-DISEASE CAUSALITY
+----------------------------------------------------------------------------------------------------
+
+The current architecture does not establish that a particular climate observation caused
+a particular disease prediction.
+
+Phase 13 image observations and Phase 14 climate observations are not temporally linked
+field observations.
+
+Therefore causal climate-to-disease claims are disabled.
+
+----------------------------------------------------------------------------------------------------
+8. FIELD VALIDATION
+----------------------------------------------------------------------------------------------------
+
+Field validation has NOT been performed in this project.
+
+Future validation should include:
+
+- independent field images
+- multiple locations
+- multiple cultivars
+- different growth stages
+- varying lighting/background conditions
+- local agronomic labels
+- linked climate observations
+- linked intervention/outcome measurements
+
+----------------------------------------------------------------------------------------------------
+9. GLOBAL GENERALIZATION
+----------------------------------------------------------------------------------------------------
+
+Global validation has NOT been established.
+
+The project is designed to be extensible beyond one region, but extensibility is not
+the same as empirical global validation.
+
+----------------------------------------------------------------------------------------------------
+10. SCIENTIFIC INTERPRETATION POLICY
+----------------------------------------------------------------------------------------------------
+
+The project distinguishes:
+
+DOCUMENTED EVIDENCE
+    Data or results directly supported by a source or experiment.
+
+METHODOLOGY
+    A transparent computational design used by the project.
+
+ASSUMPTION
+    A chosen threshold, weight or scenario condition.
+
+SCREENING INDICATOR
+    A normalized measure used to prioritize attention.
+
+LIMITATION
+    A known boundary on interpretation or generalization.
+
+This distinction should be maintained in the final application, presentation and pitch.
+
+====================================================================================================
+END OF PHASE 17 SCIENTIFIC INTERPRETATION
+====================================================================================================

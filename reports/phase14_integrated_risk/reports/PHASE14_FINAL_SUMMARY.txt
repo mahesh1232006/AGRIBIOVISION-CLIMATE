@@ -1,0 +1,61 @@
+
+================================================================================
+AGRIBIOVISION CLIMATE — PHASE 14 SUMMARY
+================================================================================
+
+STATUS
+------
+Phase 14 completed: True
+
+DATASET
+-------
+Baseline observations : 2172
+Date range             : 2020-01-21 → 2025-12-31
+
+INTEGRATED FRAMEWORK
+--------------------
+Climate Risk weight    : 0.35
+Water Stress weight    : 0.35
+Crop Health weight     : 0.3
+
+Mean Climate Risk      : 36.807
+Mean Water Stress      : 29.476
+Mean Integrated Risk   : 23.199
+Maximum Integrated Risk: 55.699
+
+BASELINE CATEGORY COUNTS
+------------------------
+risk_category  observations  percentage
+          Low          1254      57.735
+     Moderate           883      40.654
+         High            35       1.611
+    Very High             0       0.000
+
+DOMINANT RISK
+-------------
+dominant_risk  observations  percentage
+ Climate Risk          1558      71.731
+ Water Stress           614      28.269
+
+SCIENTIFIC STATUS
+-----------------
+Screening-level framework : YES
+Field validation          : NO
+Global validation         : NO
+Climate → disease causality: NOT CLAIMED
+Climate-change attribution : NOT CLAIMED
+
+CROP HEALTH SCENARIOS
+---------------------
+Healthy baseline              : 0
+Moderate crop-health concern  : 50
+High crop-health concern      : 75
+
+These scenario values are methodological scenario inputs and are NOT
+disease probabilities.
+
+QUALITY GATE
+------------
+True
+
+================================================================================

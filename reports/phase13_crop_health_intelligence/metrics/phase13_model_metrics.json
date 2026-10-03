@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.8830860534124629,
+  "balanced_accuracy": 0.881998474446987,
+  "macro_precision": 0.9020357720123042,
+  "macro_recall": 0.881998474446987,
+  "macro_f1": 0.8822722245598419,
+  "weighted_precision": 0.902447493937031,
+  "weighted_recall": 0.8830860534124629,
+  "weighted_f1": 0.8828994089004925,
+  "test_loss": 0.38429468870162964,
+  "keras_test_accuracy": 0.8830860257148743,
+  "test_images": 1685,
+  "classes": 38
+}

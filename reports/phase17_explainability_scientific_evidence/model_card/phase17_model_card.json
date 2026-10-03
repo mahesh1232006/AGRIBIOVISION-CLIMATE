@@ -1,0 +1,56 @@
+{
+  "model_name": "MobileNetV2 ImageNet transfer-learning baseline",
+  "project": "AgriBioVision Climate",
+  "phase": 13,
+  "task": "Plant/crop health image classification",
+  "architecture": {
+    "backbone": "MobileNetV2",
+    "pretrained_weights": "ImageNet",
+    "backbone_frozen": true,
+    "trainable_parameters": 48678
+  },
+  "data": {
+    "dataset": "PlantVillage",
+    "classes": 38,
+    "controlled_subset_images": 11227,
+    "train": 7858,
+    "validation": 1684,
+    "test": 1685,
+    "image_size": "160x160"
+  },
+  "evaluation": {
+    "accuracy": 0.883086,
+    "balanced_accuracy": 0.882,
+    "macro_precision": 0.902,
+    "macro_recall": 0.882,
+    "macro_f1": 0.8823,
+    "weighted_f1": 0.8829,
+    "misclassified_images": 197
+  },
+  "confidence": {
+    "mean": 0.8463,
+    "median": 0.93735
+  },
+  "known_weak_classes": [
+    "Tomato Early blight",
+    "Tomato Target Spot",
+    "Tomato Late blight",
+    "Tomato Septoria",
+    "Tomato Spider mites"
+  ],
+  "validation_scope": {
+    "controlled_benchmark": true,
+    "field_validation": false,
+    "global_validation": false,
+    "external_dataset_validation": false
+  },
+  "intended_use": "Benchmark-supported crop-health screening component within a broader climate and water decision-support workflow.",
+  "not_intended_for": [
+    "Standalone field diagnosis without verification",
+    "Automatic pesticide prescription",
+    "Guaranteed disease identification",
+    "Causal attribution of disease to climate",
+    "Replacing agricultural experts"
+  ],
+  "scientific_warning": "PlantVillage benchmark performance should not be interpreted as field performance. Real-world imagery can differ in lighting, background, cultivar, growth stage, disease severity, camera quality and environmental conditions."
+}

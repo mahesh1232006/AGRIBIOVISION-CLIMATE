@@ -1,0 +1,38 @@
+AGRIBIOVISION CLIMATE — PHASE 15 SCIENTIFIC INTERPRETATION
+
+Phase:
+15 — AI Recommendation Engine
+
+Recommendation observations:
+7392
+
+Recommendation types:
+Not available
+
+Interpretation:
+The Phase 15 engine converts the Phase 14 integrated screening framework into
+transparent agricultural decision-support recommendations.
+
+The recommendation engine is rule-based and traceable. It does not claim that
+an observed climate condition caused a particular plant disease because the
+Phase 13 PlantVillage image observations are not temporally linked to the
+NASA POWER climate observations.
+
+Crop-health scenario values are methodological scenario assumptions rather than
+disease probabilities.
+
+Recommendations should therefore be interpreted as screening-level guidance
+for monitoring, verification, water-management review, climate-risk awareness,
+and local agronomic assessment.
+
+Field validation:
+Not performed.
+
+Global validation:
+Not established.
+
+Chemical treatment prescriptions:
+Not generated.
+
+Quality gate:
+PASS

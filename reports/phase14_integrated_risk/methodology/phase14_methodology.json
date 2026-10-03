@@ -1,0 +1,47 @@
+{
+  "phase": 14,
+  "title": "Integrated Climate + Water + Crop Health Risk",
+  "project": "AgriBioVision Climate",
+  "objective": "Integrate independently derived climate exposure, water-stress indicators and crop-health concern scenarios into a transparent screening-level decision-support framework.",
+  "formula": "Integrated Risk = 0.35 * Climate Risk + 0.35 * Water Stress + 0.30 * Crop Health Concern",
+  "weights": {
+    "climate_risk": 0.35,
+    "water_stress": 0.35,
+    "crop_health_concern": 0.3
+  },
+  "risk_categories": {
+    "Low": [
+      0,
+      25
+    ],
+    "Moderate": [
+      25,
+      50
+    ],
+    "High": [
+      50,
+      75
+    ],
+    "Very High": [
+      75,
+      100.000001
+    ]
+  },
+  "crop_health_scenarios": {
+    "Healthy baseline": 0.0,
+    "Moderate crop-health concern": 50.0,
+    "High crop-health concern": 75.0
+  },
+  "data_sources": {
+    "climate": "NASA POWER daily meteorological data",
+    "crop_health": "PlantVillage benchmark via Phase 13 MobileNetV2 model"
+  },
+  "scientific_contract": {
+    "climate_disease_causality": false,
+    "field_validation": false,
+    "global_validation": false,
+    "climate_change_attribution": false,
+    "crop_health_scores_are_disease_probabilities": false
+  },
+  "interpretation": "Phase 14 is a proposed screening-level decision-support framework. The climate and water components represent observational indicators. The crop-health component is scenario-based because Phase 13 images are not temporally linked to the climate observations."
+}

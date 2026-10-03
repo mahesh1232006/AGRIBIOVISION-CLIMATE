@@ -1,0 +1,21 @@
+{
+  "phase": 15,
+  "name": "AI Recommendation Engine",
+  "status": "COMPLETE",
+  "quality_gate": true,
+  "recommendation_rows": 7392,
+  "recommendation_types": null,
+  "artifacts": {
+    "daily_recommendations": "/content/AgriBioVision_Climate/reports/phase15_ai_recommendation_engine/recommendations/phase15_recommendations_daily.csv",
+    "validation": "/content/AgriBioVision_Climate/reports/phase15_ai_recommendation_engine/validation/phase15_validation_summary.json",
+    "methodology": "/content/AgriBioVision_Climate/reports/phase15_ai_recommendation_engine/methodology/phase15_methodology.json",
+    "scientific_interpretation": "/content/AgriBioVision_Climate/reports/phase15_ai_recommendation_engine/interpretation/phase15_scientific_interpretation.txt"
+  },
+  "scientific_safeguards": {
+    "causal_climate_disease_claim": false,
+    "field_validation_claim": false,
+    "global_validation_claim": false,
+    "chemical_prescription_generation": false,
+    "crop_health_scenario_as_probability": false
+  }
+}

@@ -1,0 +1,10 @@
+component,source_phase,inputs,method,evidence_id,status,causal_claim
+Climate Risk,Phase 14,Climate exposure indicators reconstructed from NASA POWER climate variables,Transparent weighted climate-risk framework,E001,Methodologically traceable,False
+Water Stress,Phase 14,"Rainfall deficit, dry-spell and atmospheric-demand related indicators",Transparent weighted water-stress framework,E001,Methodologically traceable,False
+Crop Health Concern,Phase 14,Scenario values representing healthy/moderate/high crop-health concern,Scenario-based methodological scoring,E006,Explicit assumption,False
+Integrated Risk,Phase 14,Climate Risk + Water Stress + Crop Health Concern,0.35 Climate + 0.35 Water + 0.30 Crop Health,E006,Transparent project methodology,False
+Crop Health Vision Model,Phase 13,PlantVillage leaf images,MobileNetV2 ImageNet transfer learning,E002,Benchmark validated,False
+Resource Pressure,Phase 16,Water Stress + Climate Risk,Normalized weighted indicator,E008,Screening indicator,False
+Climate Exposure,Phase 16,Climate Risk + integrated-risk high flag,Normalized screening indicator,E008,Screening indicator,False
+Climate-Water Compounding,Phase 16,Climate Risk and Water Stress,Joint high-risk condition / compounding index,E008,Screening indicator,False
+AI Recommendations,Phase 15,Integrated risk and domain-specific risk indicators,Transparent rule-based recommendation knowledge base,E007,Rule traceable,False

@@ -1,0 +1,16 @@
+{
+  "dataset": "PlantVillage",
+  "source": "spMohanty/PlantVillage-Dataset",
+  "path": "/content/plantvillage",
+  "full_images": 54305,
+  "classes": 38,
+  "controlled_subset": 11227,
+  "images_per_class_cap": 300,
+  "train": 7858,
+  "validation": 1684,
+  "test": 1685,
+  "split": "70/15/15 stratified",
+  "random_seed": 42,
+  "leakage_status": "PASS",
+  "status": "PASS"
+}

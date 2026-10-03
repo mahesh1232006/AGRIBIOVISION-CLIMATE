@@ -1,0 +1,9 @@
+assumption_id,component,assumption,type,empirical_status,validated
+A001,Integrated Risk,Climate Risk receives 35% weight,Methodological,Project design choice,False
+A002,Integrated Risk,Water Stress receives 35% weight,Methodological,Project design choice,False
+A003,Integrated Risk,Crop Health Concern receives 30% weight,Methodological,Project design choice,False
+A004,Crop Health Scenario,"Healthy baseline = 0, moderate concern = 50, high concern = 75",Scenario,"Scenario assumption, not disease probability",False
+A005,Heat Exposure,T2M_MAX >= 35°C is used as a screening threshold,Screening threshold,Project screening rule,False
+A006,Dry Day,Daily rainfall below 1 mm is classified as a dry day,Screening threshold,Project screening rule,False
+A007,Resource Pressure,Resource Pressure combines Water Stress and Climate Risk using normalized weights,Derived indicator,Methodological indicator,False
+A008,Recommendation Engine,Recommendations are generated through transparent rules,System design,Traceable methodology,True

@@ -1,0 +1,19 @@
+{
+  "project_exists": true,
+  "dataset_exists": true,
+  "classes": 38,
+  "expected_classes": 38,
+  "full_dataset_images": 54305,
+  "controlled_subset_images": 11227,
+  "train_images": 7858,
+  "validation_images": 1684,
+  "test_images": 1685,
+  "split_leakage": "PASS",
+  "metrics_finite": true,
+  "prediction_count_valid": true,
+  "model_saved": true,
+  "classification_report_saved": true,
+  "confusion_matrix_saved": true,
+  "scientific_report_saved": true,
+  "overall_status": "PASS"
+}

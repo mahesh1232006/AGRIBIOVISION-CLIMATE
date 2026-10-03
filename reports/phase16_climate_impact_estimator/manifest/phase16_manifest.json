@@ -1,0 +1,39 @@
+{
+  "phase": 16,
+  "name": "Climate Impact Estimator",
+  "status": "COMPLETE",
+  "quality_gate": true,
+  "input_observations": 2172,
+  "scenario_observations": 6516,
+  "outputs": {
+    "daily": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/processed/phase16_daily_impact_indicators.csv",
+    "scenarios": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/processed/phase16_all_scenario_impact.csv",
+    "annual": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/summaries/phase16_annual_impact_summary.csv",
+    "monthly": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/summaries/phase16_monthly_impact_summary.csv",
+    "risk_summary": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/summaries/phase16_risk_impact_summary.csv",
+    "resource_summary": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/summaries/phase16_resource_pressure_summary.csv",
+    "exposure_summary": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/summaries/phase16_climate_exposure_summary.csv",
+    "scenario_summary": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/summaries/phase16_scenario_comparison.csv",
+    "top_impact": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/summaries/phase16_top_impact_observations.csv",
+    "validation": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/validation/phase16_validation_summary.json",
+    "methodology": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/methodology/phase16_methodology.json",
+    "assumptions": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/assumptions/phase16_assumption_registry.json",
+    "interpretation": "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/interpretation/phase16_scientific_interpretation.txt",
+    "plots": [
+      "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/plots/phase16_annual_resource_pressure.png",
+      "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/plots/phase16_risk_vs_resource_pressure.png",
+      "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/plots/phase16_climate_exposure.png",
+      "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/plots/phase16_scenario_comparison.png",
+      "/content/AgriBioVision_Climate/reports/phase16_climate_impact_estimator/plots/phase16_monthly_pressure.png"
+    ]
+  },
+  "scientific_safeguards": {
+    "actual_water_savings_estimated": false,
+    "actual_financial_savings_estimated": false,
+    "actual_co2_reduction_estimated": false,
+    "actual_yield_increase_estimated": false,
+    "causal_climate_disease_claim": false,
+    "field_validation_claim": false,
+    "global_validation_claim": false
+  }
+}

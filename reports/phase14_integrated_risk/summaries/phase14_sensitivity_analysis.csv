@@ -1,0 +1,13 @@
+crop_health_scenario,weight_configuration,climate_weight,water_weight,crop_weight,mean_integrated_risk,median_integrated_risk,max_integrated_risk
+Healthy baseline,balanced,0.35,0.35,0.3,23.1991,20.7782,55.6994
+Healthy baseline,climate_focus,0.5,0.3,0.2,27.2463,24.5126,64.26
+Healthy baseline,water_focus,0.3,0.5,0.2,25.7801,22.7103,63.0529
+Healthy baseline,crop_focus,0.25,0.25,0.5,16.5708,14.8416,39.7853
+Moderate crop-health concern,balanced,0.35,0.35,0.3,38.1991,35.7782,70.6994
+Moderate crop-health concern,climate_focus,0.5,0.3,0.2,37.2463,34.5126,74.26
+Moderate crop-health concern,water_focus,0.3,0.5,0.2,35.7801,32.7103,73.0529
+Moderate crop-health concern,crop_focus,0.25,0.25,0.5,41.5708,39.8416,64.7853
+High crop-health concern,balanced,0.35,0.35,0.3,45.6991,43.2782,78.1994
+High crop-health concern,climate_focus,0.5,0.3,0.2,42.2463,39.5126,79.26
+High crop-health concern,water_focus,0.3,0.5,0.2,40.7801,37.7103,78.0529
+High crop-health concern,crop_focus,0.25,0.25,0.5,54.0708,52.3416,77.2853

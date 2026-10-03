@@ -1,0 +1,4 @@
+crop_health_scenario,mean_integrated_risk,high_or_very_high_observations,very_high_observations,interpretation
+Healthy baseline,23.1991,35,0,Scenario sensitivity only; not a disease probability.
+High crop-health concern,45.6991,819,9,Scenario sensitivity only; not a disease probability.
+Moderate crop-health concern,38.1991,466,0,Scenario sensitivity only; not a disease probability.

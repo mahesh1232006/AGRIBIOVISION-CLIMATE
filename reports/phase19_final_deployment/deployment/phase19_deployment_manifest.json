@@ -1,0 +1,26 @@
+{
+  "project": "AgriBioVision Climate",
+  "phase": 19,
+  "generated_at": "2026-10-03T11:14:42.683994",
+  "deployment_target": "Streamlit Community Cloud",
+  "entrypoint": "app.py",
+  "scientific_status": {
+    "field_validation_established": false,
+    "global_validation_established": false,
+    "causal_climate_disease_claim": false,
+    "normalized_indicators": true
+  },
+  "application_files": {
+    "app.py": true,
+    "requirements.txt": true
+  },
+  "scientific_artifacts": {
+    "Phase 13 model": true,
+    "Phase 14 baseline": true,
+    "Phase 14 scenarios": true,
+    "Phase 15 recommendations": true,
+    "Phase 16 impact indicators": true,
+    "Phase 17 evidence": true,
+    "Phase 17 model card": true
+  }
+}

@@ -1,0 +1,4 @@
+component,weight,mean_contribution_baseline
+Climate Risk,0.35,12.8824
+Water Stress,0.35,10.3166
+Crop Health Concern,0.3,0.0

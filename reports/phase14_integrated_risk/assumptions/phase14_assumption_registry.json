@@ -1,0 +1,45 @@
+{
+  "phase": 14,
+  "assumptions": [
+    {
+      "id": "A14-01",
+      "statement": "Climate risk contributes 35% to the integrated screening score.",
+      "type": "methodological assumption"
+    },
+    {
+      "id": "A14-02",
+      "statement": "Water stress contributes 35% to the integrated screening score.",
+      "type": "methodological assumption"
+    },
+    {
+      "id": "A14-03",
+      "statement": "Crop health concern contributes 30% to the integrated screening score.",
+      "type": "methodological assumption"
+    },
+    {
+      "id": "A14-04",
+      "statement": "Healthy baseline crop-health concern is represented by 0.",
+      "type": "scenario assumption"
+    },
+    {
+      "id": "A14-05",
+      "statement": "Moderate crop-health concern is represented by 50.",
+      "type": "scenario assumption"
+    },
+    {
+      "id": "A14-06",
+      "statement": "High crop-health concern is represented by 75.",
+      "type": "scenario assumption"
+    },
+    {
+      "id": "A14-07",
+      "statement": "Crop-health scenario values are not probabilities of disease and do not establish disease prevalence.",
+      "type": "scientific limitation"
+    },
+    {
+      "id": "A14-08",
+      "statement": "Phase 13 PlantVillage observations are not time-aligned with NASA POWER climate observations.",
+      "type": "scientific limitation"
+    }
+  ]
+}

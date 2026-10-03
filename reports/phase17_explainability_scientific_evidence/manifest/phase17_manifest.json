@@ -1,0 +1,43 @@
+{
+  "project": "AgriBioVision Climate",
+  "phase": 17,
+  "phase_name": "Explainability & Scientific Evidence",
+  "created_at": "2026-10-03T11:07:24.779822",
+  "quality_gate": true,
+  "input_phases": [
+    "Phase 13 \u2014 Crop Health Intelligence",
+    "Phase 14 \u2014 Integrated Risk",
+    "Phase 15 \u2014 AI Recommendation Engine",
+    "Phase 16 \u2014 Climate Impact Estimator"
+  ],
+  "scientific_principles": [
+    "benchmark performance is not field validation",
+    "scenario scores are not probabilities",
+    "normalized indicators are not measured savings",
+    "recommendation rules are not causal treatment effects",
+    "climate observations are not assumed to cause individual disease predictions"
+  ],
+  "output_file_count": 20,
+  "outputs": [
+    "assumptions/phase17_assumption_registry.csv",
+    "evidence/phase17_citation_registry.csv",
+    "evidence/phase17_evidence_coverage.csv",
+    "evidence/phase17_scientific_evidence_registry.csv",
+    "explainability/phase17_impact_indicator_explainability.csv",
+    "explainability/phase17_integrated_risk_explainability.csv",
+    "interpretation/phase17_explainability_summary.json",
+    "interpretation/phase17_scientific_interpretation.txt",
+    "limitations/phase17_limitation_registry.csv",
+    "model_card/phase17_class_level_model_evidence.csv",
+    "model_card/phase17_model_card.json",
+    "model_card/phase17_model_performance_registry.csv",
+    "plots/phase17_component_contributions.png",
+    "plots/phase17_dominant_component_distribution.png",
+    "plots/phase17_formula_reconstruction_error.png",
+    "plots/phase17_model_performance_snapshot.png",
+    "traceability/phase17_component_evidence_traceability.csv",
+    "traceability/phase17_recommendation_traceability.csv",
+    "validation/phase17_claim_safety_registry.csv",
+    "validation/phase17_validation_summary.json"
+  ]
+}

@@ -1,0 +1,9 @@
+indicator,count,share_percent
+High integrated-risk days,35,1.6114180478821363
+Very-high integrated-risk days,0,0.0
+High climate-risk days,382,17.587476979742174
+High water-stress days,496,22.83609576427256
+Heat-exposure days,550,25.32228360957643
+Extreme-heat days,204,9.392265193370166
+Dry days,1496,68.87661141804789
+Climate-water compounding days,293,13.489871086556168

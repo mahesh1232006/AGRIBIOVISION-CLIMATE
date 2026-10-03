@@ -1,0 +1,78 @@
+================================================================================
+AGRIBIOVISION CLIMATE — PHASE 16 SCIENTIFIC INTERPRETATION
+CLIMATE IMPACT ESTIMATOR
+================================================================================
+
+PURPOSE
+-------
+Phase 16 translates the Phase 14 integrated screening framework into measurable
+normalized indicators representing climate exposure, water-resource pressure,
+risk burden, and climate-water compounding.
+
+KEY SCREENING RESULTS
+---------------------
+Observations analysed:
+2172
+
+Mean integrated risk:
+23.199
+
+Mean climate risk:
+36.807
+
+Mean water stress:
+29.476
+
+Mean resource pressure index:
+32.408
+
+High integrated-risk observations:
+35
+
+Heat-exposure observations:
+550
+
+Dry-day observations:
+1496
+
+Climate-water compounding observations:
+293
+
+INTERPRETATION
+--------------
+The Resource Pressure Index is a normalized decision-support indicator.
+
+It should NOT be interpreted as:
+• litres of irrigation water required
+• litres of water saved
+• monetary savings
+• yield increase
+• carbon reduction
+• measured farm-level economic impact
+
+Actual impact measurement would require farm-specific baseline data,
+intervention records, water-use measurements, yield observations, costs,
+and/or verified activity-based emission factors.
+
+The climate-water compounding indicator identifies observations where climate
+and water-stress signals are jointly elevated. It is a screening construct and
+does not prove that one factor caused the other.
+
+SCIENTIFIC LIMITATIONS
+----------------------
+1. Phase 14 is a screening-level integrated risk framework.
+2. Crop-health image observations are not temporally linked to individual
+   NASA POWER climate observations.
+3. PlantVillage benchmark performance does not establish field validation.
+4. Global validation has not been established.
+5. Resource-pressure weights are methodological design choices rather than
+   statistically optimized parameters.
+6. Actual farm-level impact requires prospective field measurements.
+
+DECISION-SUPPORT POSITION
+-------------------------
+Phase 16 provides a transparent way to communicate potential resource and
+climate pressure while avoiding unsupported claims of measured savings or
+causal impact.
+
+================================================================================

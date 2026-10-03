@@ -1,0 +1,20 @@
+{
+  "project": "AgriBioVision Climate",
+  "phase": 17,
+  "purpose": "Provide transparent evidence, traceability, model limitations, assumption documentation and interpretation of system outputs.",
+  "evidence_layers": {
+    "climate": "NASA POWER meteorological/solar data",
+    "crop_health": "PlantVillage benchmark dataset",
+    "vision_model": "MobileNetV2 transfer-learning architecture",
+    "integrated_risk": "Transparent weighted project methodology",
+    "recommendations": "Transparent rule-based engine",
+    "impact_indicators": "Normalized screening indicators"
+  },
+  "model_interpretation": "Phase 13 crop-health performance is a controlled benchmark result and should not be interpreted as field accuracy.",
+  "risk_interpretation": "Integrated Risk is a screening score combining climate risk, water stress and crop-health concern according to documented project weights.",
+  "impact_interpretation": "Resource Pressure, Climate Exposure, Compounding Index and Monitoring Pressure are normalized screening indicators. They are not direct measurements of water saved, financial savings, yield gain, disease reduction or CO2 reduction.",
+  "recommendation_interpretation": "Recommendations are transparent decision-support rules. They are not causal treatment-effect estimates and require local agronomic validation.",
+  "causal_claim_policy": "The system does not infer that a specific climate observation caused a specific disease.",
+  "field_validation_status": false,
+  "global_validation_status": false
+}

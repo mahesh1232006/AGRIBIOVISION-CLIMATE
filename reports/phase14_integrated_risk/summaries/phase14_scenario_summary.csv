@@ -1,0 +1,4 @@
+Crop Health Scenario,observations,mean_integrated_risk,median_integrated_risk,max_integrated_risk,mean_climate_risk,mean_water_stress,crop_health_concern
+Healthy baseline,2172,23.199,20.778,55.699,36.80696923954002,29.476075224807047,0.0
+High crop-health concern,2172,45.699,43.278,78.199,36.80696923954002,29.476075224807047,75.0
+Moderate crop-health concern,2172,38.199,35.778,70.699,36.80696923954002,29.476075224807047,50.0

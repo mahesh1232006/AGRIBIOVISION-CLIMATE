@@ -1,0 +1,10 @@
+component,evidence_id,evidence_available,source_phase,status,causal_claim
+Climate Risk,E001,True,Phase 14,Methodologically traceable,False
+Water Stress,E001,True,Phase 14,Methodologically traceable,False
+Crop Health Concern,E006,True,Phase 14,Explicit assumption,False
+Integrated Risk,E006,True,Phase 14,Transparent project methodology,False
+Crop Health Vision Model,E002,True,Phase 13,Benchmark validated,False
+Resource Pressure,E008,True,Phase 16,Screening indicator,False
+Climate Exposure,E008,True,Phase 16,Screening indicator,False
+Climate-Water Compounding,E008,True,Phase 16,Screening indicator,False
+AI Recommendations,E007,True,Phase 15,Rule traceable,False

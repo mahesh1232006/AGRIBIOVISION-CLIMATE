@@ -1,0 +1,91 @@
+================================================================================
+AGRIBIOVISION CLIMATE
+PHASE 16 — CLIMATE IMPACT ESTIMATOR
+================================================================================
+
+STATUS
+------
+Phase 16 status:
+COMPLETE
+
+Quality gate:
+PASS
+
+DATA
+----
+Baseline observations:
+2172
+
+Scenario observations:
+6516
+
+Daily impact observations:
+2172
+
+KEY INDICATORS
+--------------
+Mean integrated risk:
+23.199
+
+Mean climate risk:
+36.807
+
+Mean water stress:
+29.476
+
+Mean resource pressure:
+32.408
+
+High integrated-risk observations:
+35
+
+Heat-exposure observations:
+550
+
+Dry-day observations:
+1496
+
+Climate-water compounding observations:
+293
+
+RESOURCE PRESSURE FORMULA
+-------------------------
+Resource Pressure Index =
+0.60 × Water Stress +
+0.40 × Climate Risk
+
+IMPORTANT SCIENTIFIC INTERPRETATION
+-----------------------------------
+The Resource Pressure Index is a normalized screening-level indicator.
+
+It is NOT:
+• litres of water required
+• litres of water saved
+• monetary savings
+• yield increase
+• CO2 reduction
+• measured farm impact
+
+Actual impact requires farm-level intervention and outcome measurements.
+
+SCIENTIFIC LIMITATIONS
+----------------------
+• Phase 14 is a screening-level integrated framework.
+• Phase 13 PlantVillage image observations are not temporally linked to
+  individual NASA POWER observations.
+• PlantVillage benchmark performance does not establish field validation.
+• Global validation is not established.
+• Phase 16 weights are methodological design choices.
+• Prospective field measurements are required for real-world impact validation.
+
+COMPETITION-SAFE CLAIM
+----------------------
+AgriBioVision Climate estimates normalized climate and resource-pressure
+indicators to support monitoring and adaptation decisions.
+
+It does not claim measured savings or causal agricultural outcomes without
+field evidence.
+
+================================================================================
+END OF PHASE 16
+================================================================================

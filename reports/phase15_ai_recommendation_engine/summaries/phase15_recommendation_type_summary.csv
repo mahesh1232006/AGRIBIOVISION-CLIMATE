@@ -1,0 +1,10 @@
+recommendation_id,recommendation_title,evidence_type,resource_level,observations,mean_integrated_risk,max_integrated_risk
+CLM-01,Reduce heat exposure during peak daytime conditions,Agronomic management principle,Low to Moderate,17,53.286,55.699
+CLM-02,Monitor crop condition during heat episodes,Monitoring recommendation,Low,382,40.892,55.699
+CLM-03,Increase monitoring during unstable weather periods,Decision-support recommendation,Low,1013,34.026,55.699
+GEN-01,Maintain a simple farm observation log,Decision-support recommendation,Low,1879,20.089,39.467
+GEN-02,Verify recommendations against local agronomic conditions,Scientific limitation,Low,1879,20.089,39.467
+WTR-01,Check soil moisture before irrigation,Water-management principle,Low,496,40.229,55.699
+WTR-02,Review irrigation scheduling,Irrigation-management principle,Low,904,35.464,55.699
+WTR-03,Monitor water demand during high heat,Agrometeorological principle,Low,326,41.416,51.506
+WTR-04,Prioritize efficient water application,Water-efficiency principle,Moderate,496,40.229,55.699

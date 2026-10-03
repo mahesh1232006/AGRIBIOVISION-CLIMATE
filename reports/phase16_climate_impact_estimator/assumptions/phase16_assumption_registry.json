@@ -1,0 +1,66 @@
+{
+  "phase": 16,
+  "name": "Climate Impact Estimator",
+  "assumptions": [
+    {
+      "id": "A16-01",
+      "statement": "Resource Pressure Index is a normalized screening indicator and is not an estimate of litres of water required or saved.",
+      "type": "methodological assumption"
+    },
+    {
+      "id": "A16-02",
+      "statement": "Resource Pressure Index combines water stress and climate risk using a 60/40 weighting.",
+      "type": "methodological assumption"
+    },
+    {
+      "id": "A16-03",
+      "statement": "The 60/40 weighting is a transparent project-design choice and has not been statistically optimized or externally validated.",
+      "type": "methodological assumption"
+    },
+    {
+      "id": "A16-04",
+      "statement": "Heat exposure is screened using daily maximum temperature when raw temperature data are available.",
+      "type": "screening rule"
+    },
+    {
+      "id": "A16-05",
+      "statement": "A rainfall value below 1 mm/day is treated as a dry-day screening indicator.",
+      "type": "screening rule"
+    },
+    {
+      "id": "A16-06",
+      "statement": "High integrated risk is defined as an integrated risk score of 50 or greater, consistent with Phase 14.",
+      "type": "threshold inheritance"
+    },
+    {
+      "id": "A16-07",
+      "statement": "Very high integrated risk is defined as an integrated risk score of 75 or greater.",
+      "type": "threshold inheritance"
+    },
+    {
+      "id": "A16-08",
+      "statement": "Scenario comparisons represent methodological crop-health scenarios and do not establish causal field outcomes.",
+      "type": "scientific limitation"
+    },
+    {
+      "id": "A16-09",
+      "statement": "No actual financial savings are estimated because farm-specific cost, yield, labor, and intervention data are unavailable.",
+      "type": "scientific limitation"
+    },
+    {
+      "id": "A16-10",
+      "statement": "No actual water savings are estimated because measured baseline and post-intervention water-use data are unavailable.",
+      "type": "scientific limitation"
+    },
+    {
+      "id": "A16-11",
+      "statement": "No carbon reduction is estimated because defensible farm-level activity data and emission factors are not part of the current dataset.",
+      "type": "scientific limitation"
+    },
+    {
+      "id": "A16-12",
+      "statement": "Impact indicators should be interpreted as screening-level exposure and resource-pressure indicators.",
+      "type": "interpretation rule"
+    }
+  ]
+}

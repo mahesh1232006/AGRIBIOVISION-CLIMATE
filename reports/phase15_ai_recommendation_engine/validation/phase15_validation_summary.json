@@ -1,0 +1,18 @@
+{
+  "phase15_directory_exists": true,
+  "recommendation_file_exists": true,
+  "recommendation_nonempty": true,
+  "required_columns_present": true,
+  "dates_present": true,
+  "recommendation_text_present": true,
+  "rationale_present": true,
+  "integrated_risk_finite": true,
+  "integrated_risk_range_valid": true,
+  "no_duplicate_recommendation_rows": true,
+  "causal_climate_disease_claim_disabled": true,
+  "chemical_prescription_generation_disabled": true,
+  "field_validation_not_claimed": true,
+  "global_validation_not_claimed": true,
+  "transparent_rule_based_engine": true,
+  "quality_gate": true
+}

@@ -1,0 +1,9 @@
+limitation_id,area,limitation,severity,mitigation
+L001,Climate data,NASA POWER climate observations are not equivalent to farm-level sensor measurements,Important,Allow farm-specific/local observations and future sensor integration
+L002,Plant disease model,PlantVillage images are controlled benchmark data and do not establish field performance,Critical,Validate on independent field datasets and locally collected images
+L003,Climate-disease relationship,Phase 13 image observations are not temporally linked to Phase 14 climate observations,Critical,Do not make causal climate-to-disease claims; collect linked longitudinal field data
+L004,Risk weighting,Integrated-risk weights are methodological choices rather than empirically learned causal weights,Important,Future calibration against agronomic outcomes and expert elicitation
+L005,Impact estimation,Resource Pressure and Exposure are normalized indicators rather than measured savings,Critical,"Integrate actual irrigation, yield, cost and resource-use records"
+L006,Recommendations,Recommendations are decision-support rules and require local agronomic validation,Important,"Add crop-, region-, soil- and growth-stage-specific validation"
+L007,Generalization,Global applicability has not been experimentally established,Critical,"Evaluate across climates, cultivars, soils and farming systems"
+L008,Image confidence,Model confidence is not equivalent to diagnostic certainty,Important,Calibrate probabilities and introduce abstention/uncertainty mechanisms

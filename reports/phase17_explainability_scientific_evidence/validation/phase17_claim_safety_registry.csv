@@ -1,0 +1,8 @@
+claim,allowed,classification,condition
+Phase 13 model achieved 88.31% test accuracy,True,Documented project benchmark result,Must be presented as PlantVillage-based benchmark performance
+The model is 88.31% accurate in real farms,False,Unsupported field claim,Field validation has not been performed
+Climate caused the detected plant disease,False,Unsupported causal claim,Image and climate observations are not causally linked
+Resource Pressure means litres of water saved,False,Unsupported impact claim,Phase 16 indicator is normalized
+Resource Pressure is a screening indicator for climate-water pressure,True,Methodological interpretation,Use normalized-indicator language
+The system provides agricultural decision support,True,System description,Do not describe as a replacement for experts
+The system is globally validated,False,Unsupported validation claim,Global validation has not been performed

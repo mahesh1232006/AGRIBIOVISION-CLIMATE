@@ -1,0 +1,31 @@
+{
+  "phase": 16,
+  "name": "Climate Impact Estimator",
+  "objective": "Translate integrated climate-water risk into transparent screening-level impact and resource-pressure indicators.",
+  "primary_input": "Phase 14 integrated risk framework",
+  "supporting_input": "Phase 15 recommendation framework",
+  "resource_pressure_formula": "Resource Pressure Index = 0.60 × Water Stress + 0.40 × Climate Risk",
+  "climate_exposure_formula": "Climate Exposure Index = 0.70 × Climate Risk + 0.30 × High Integrated Risk Flag × 100",
+  "climate_water_compounding_formula": "Compounding Index = sqrt(Climate Risk × Water Stress)",
+  "monitoring_pressure_formula": "Monitoring Pressure = 0.50 × Integrated Risk + 0.25 × Resource Pressure + 0.25 × Climate Exposure",
+  "risk_thresholds": {
+    "Low": "0–24.999",
+    "Moderate": "25–49.999",
+    "High": "50–74.999",
+    "Very High": "75–100"
+  },
+  "impact_units": {
+    "resource_pressure_index": "normalized 0–100 index",
+    "climate_exposure_index": "normalized 0–100 index",
+    "compounding_index": "normalized 0–100 index",
+    "monitoring_pressure_index": "normalized 0–100 index"
+  },
+  "not_estimated": [
+    "actual litres of water saved",
+    "actual monetary savings",
+    "actual yield increase",
+    "actual CO2 reduction",
+    "actual disease reduction"
+  ],
+  "validation_status": "screening framework; field impact validation not performed"
+}

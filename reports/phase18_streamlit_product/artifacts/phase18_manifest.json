@@ -1,0 +1,27 @@
+{
+  "project": "AgriBioVision Climate",
+  "phase": 18,
+  "name": "Complete Streamlit Product",
+  "app_path": "/content/AgriBioVision_Climate/app.py",
+  "components": [
+    "Dashboard",
+    "Climate & Water Intelligence",
+    "Crop Health Screening",
+    "Integrated Risk",
+    "Recommendations",
+    "Impact Indicators",
+    "Scientific Evidence",
+    "Data Downloads"
+  ],
+  "input_phases": [
+    "Phase 13",
+    "Phase 14",
+    "Phase 15",
+    "Phase 16",
+    "Phase 17"
+  ],
+  "retraining_performed": false,
+  "field_validation_claimed": false,
+  "global_validation_claimed": false,
+  "quality_gate": true
+}

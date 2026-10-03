@@ -1,0 +1,55 @@
+
+AGRIBIOVISION CLIMATE — PHASE 14 SCIENTIFIC INTERPRETATION
+
+Phase 14 integrates three analytical dimensions:
+
+1. Climate exposure
+2. Water stress
+3. Crop-health concern
+
+The integrated score uses the following proposed screening framework:
+
+Integrated Risk =
+0.35 × Climate Risk
++ 0.35 × Water Stress
++ 0.30 × Crop Health Concern
+
+The climate and water components are derived from daily meteorological
+observations. Crop-health concern is scenario-based because the Phase 13
+PlantVillage image observations are not temporally linked to the climate
+observations.
+
+Therefore Phase 14 does NOT claim that a specific climate observation caused
+a specific disease prediction.
+
+The framework is intended to prioritize observations and illustrate how
+multiple stress dimensions can be combined transparently.
+
+Scientific status:
+- Screening-level framework: YES
+- Field validation: NOT PERFORMED
+- Global validation: NOT ESTABLISHED
+- Climate-to-disease causal inference: NOT CLAIMED
+- Climate-change attribution: NOT CLAIMED
+
+Baseline scenario:
+Healthy crop-health baseline = 0
+
+Mean climate risk:
+36.807
+
+Mean water stress:
+29.476
+
+Mean integrated risk:
+23.199
+
+Maximum integrated risk:
+55.699
+
+High + Very High baseline observations:
+35
+
+The results should be interpreted as a transparent screening framework rather
+than as a calibrated probability of crop failure, disease occurrence or
+economic loss.

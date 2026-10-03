@@ -1,0 +1,20 @@
+{
+  "project_root_exists": true,
+  "app_exists": true,
+  "requirements_exists": true,
+  "run_script_exists": true,
+  "phase13_model_available": true,
+  "phase14_risk_available": true,
+  "phase15_recommendations_available": true,
+  "phase16_impact_available": true,
+  "phase17_evidence_available": true,
+  "scientific_safety_language_present": true,
+  "no_retraining_in_phase18": true,
+  "risk_dashboard_present": true,
+  "crop_health_present": true,
+  "recommendation_dashboard_present": true,
+  "impact_dashboard_present": true,
+  "scientific_evidence_present": true,
+  "download_functions_present": true,
+  "quality_gate": true
+}

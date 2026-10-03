@@ -1,0 +1,178 @@
+====================================================================================================
+🌱 AGRIBIOVISION CLIMATE — PHASE 17 FINAL REPORT
+EXPLAINABILITY & SCIENTIFIC EVIDENCE
+====================================================================================================
+
+STATUS
+------
+QUALITY GATE: PASS
+
+----------------------------------------------------------------------------------------------------
+PROJECT INPUTS
+----------------------------------------------------------------------------------------------------
+
+Phase 13 crop-health benchmark
+Phase 14 integrated risk
+Phase 15 recommendation engine
+Phase 16 climate impact estimator
+
+----------------------------------------------------------------------------------------------------
+MODEL EVIDENCE
+----------------------------------------------------------------------------------------------------
+
+Model:
+    MobileNetV2 ImageNet transfer-learning baseline
+
+Classes:
+    38
+
+Controlled subset:
+    11227
+
+Test images:
+    1685
+
+Accuracy:
+    0.8831
+
+Balanced Accuracy:
+    0.8820
+
+Macro F1:
+    0.8823
+
+Weighted F1:
+    0.8829
+
+Field validation:
+    NO
+
+Global validation:
+    NO
+
+----------------------------------------------------------------------------------------------------
+EXPLAINABILITY
+----------------------------------------------------------------------------------------------------
+
+Integrated-risk observations:
+    2172
+
+Maximum formula reconstruction error:
+    0.0000000000
+
+Evidence-linked components:
+    9
+
+Total traceability components:
+    9
+
+Evidence coverage:
+    100.00%
+
+----------------------------------------------------------------------------------------------------
+SCIENTIFIC SAFETY
+----------------------------------------------------------------------------------------------------
+
+Climate-to-disease causal claim:
+    DISABLED
+
+Actual water-savings claim:
+    DISABLED
+
+Actual financial-savings claim:
+    DISABLED
+
+CO2-reduction claim:
+    DISABLED
+
+Yield-increase claim:
+    DISABLED
+
+Global-validation claim:
+    DISABLED
+
+Field-validation claim:
+    DISABLED
+
+----------------------------------------------------------------------------------------------------
+KEY SCIENTIFIC INTERPRETATION
+----------------------------------------------------------------------------------------------------
+
+1. Phase 13 is a controlled benchmark evaluation.
+
+2. Phase 14 Integrated Risk is a transparent screening score.
+
+3. Crop-health scenarios are methodological scenarios, not disease probabilities.
+
+4. Phase 15 recommendations are transparent rules requiring local validation.
+
+5. Phase 16 impact indicators are normalized screening indicators.
+
+6. The current project does not establish causal climate-to-disease relationships.
+
+7. The current project does not establish field or global validation.
+
+8. Future validation should connect field imagery, climate observations,
+   agronomic labels and measured intervention outcomes.
+
+----------------------------------------------------------------------------------------------------
+PHASE 17 OUTPUTS
+----------------------------------------------------------------------------------------------------
+
+Evidence registry:
+    phase17_scientific_evidence_registry.csv
+
+Citation registry:
+    phase17_citation_registry.csv
+
+Component traceability:
+    phase17_component_evidence_traceability.csv
+
+Integrated-risk explainability:
+    phase17_integrated_risk_explainability.csv
+
+Impact explainability:
+    phase17_impact_indicator_explainability.csv
+
+Recommendation traceability:
+    phase17_recommendation_traceability.csv
+
+Model card:
+    phase17_model_card.json
+
+Model performance registry:
+    phase17_model_performance_registry.csv
+
+Assumption registry:
+    phase17_assumption_registry.csv
+
+Limitation registry:
+    phase17_limitation_registry.csv
+
+Claim safety registry:
+    phase17_claim_safety_registry.csv
+
+Evidence coverage:
+    phase17_evidence_coverage.csv
+
+Scientific interpretation:
+    phase17_scientific_interpretation.txt
+
+Validation:
+    phase17_validation_summary.json
+
+Manifest:
+    phase17_manifest.json
+
+----------------------------------------------------------------------------------------------------
+NEXT PHASE
+----------------------------------------------------------------------------------------------------
+
+Phase 18 — COMPLETE STREAMLIT PRODUCT
+
+Phase 18 should expose the scientifically traceable outputs through the user interface
+without introducing unsupported claims.
+
+====================================================================================================
+END OF PHASE 17
+====================================================================================================

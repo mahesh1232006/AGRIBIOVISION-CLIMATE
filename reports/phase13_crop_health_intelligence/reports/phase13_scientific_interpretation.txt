@@ -1,0 +1,114 @@
+PHASE 13 — CROP HEALTH INTELLIGENCE
+====================================
+
+Dataset
+-------
+PlantVillage
+
+Full dataset discovered:
+54,305 images
+
+Classes:
+38
+
+Controlled modeling subset:
+11,227 images
+
+Images per class cap:
+300
+
+Train:
+7,858
+
+Validation:
+1,684
+
+Test:
+1,685
+
+
+Model
+-----
+MobileNetV2 transfer-learning baseline.
+
+Input size:
+160 x 160
+
+Maximum epochs:
+3
+
+Completed epochs:
+3
+
+Random seed:
+42
+
+
+Test Results
+------------
+Accuracy:
+0.883086
+
+Balanced Accuracy:
+0.881998
+
+Macro Precision:
+0.902036
+
+Macro Recall:
+0.881998
+
+Macro F1:
+0.882272
+
+Weighted F1:
+0.882899
+
+
+Scientific Interpretation
+-------------------------
+These results measure performance on the held-out PlantVillage
+test subset.
+
+PlantVillage is a public benchmark image dataset and should not
+be treated as equivalent to field validation.
+
+Therefore the model results do not establish:
+
+- universal field disease-diagnosis accuracy
+- geographic generalization
+- performance across farms
+- performance across cultivars
+- performance across cameras
+- performance under all lighting conditions
+- yield prediction
+- crop-loss prediction
+- climate-change attribution
+- agricultural economic impact
+
+
+Role in AgriBioVision Climate
+-----------------------------
+Crop-health classification is one component of the wider
+AgriBioVision Climate decision-support framework.
+
+It is intended to complement:
+
+1. Climate Risk Intelligence
+2. Water Stress Intelligence
+3. Crop Health Intelligence
+
+The final system should preserve uncertainty and avoid presenting
+benchmark image classification as definitive agronomic diagnosis.
+
+
+Validation status
+-----------------
+Dataset benchmark validation: COMPLETED
+
+Field validation: NOT PERFORMED
+
+Global validation: NOT ESTABLISHED
+
+Scientific status:
+SCREENING / BENCHMARK CROP-HEALTH INTELLIGENCE
